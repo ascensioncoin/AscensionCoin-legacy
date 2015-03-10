@@ -1,0 +1,9 @@
+Building ascension
+
+See doc/readme-qt.rst for instructions on building ascension QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of ascension.
+
+See doc/build-*.txt for instructions on building ascensiond,
+the intended-for-services, no-graphical-interface, reference
+implementation of ascension.
