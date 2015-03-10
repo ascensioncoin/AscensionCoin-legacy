@@ -8,7 +8,7 @@ PoW + PoS Hybrid
 
 Mining Ends at Block 8500, (7 days mining estimated 5040 PoW bocks) 2 - 100 = 0 Coins, to avoid instamining and create Checkpoint. 101 - 8500 = Ascending PoW block Reward is equal to previous block number
 
-12703320 estimates total (5040 x ascending PoW block rewards target)
+12703320 estimated coin total (5040 x ascending PoW block rewards target)
 
 PoS starts at block 50 
 
