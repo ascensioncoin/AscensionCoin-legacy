@@ -3,7 +3,7 @@
 
 TEMPLATE = app
 TARGET = ascension-qt
-VERSION = 1.1.0.0
+VERSION = 1.2.0.0
 INCLUDEPATH += src src/json \
     src/qt 
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
@@ -225,6 +225,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/aboutdialog.h \
     src/qt/editaddressdialog.h \
     src/qt/bitcoinaddressvalidator.h \
+    src/qt/statisticspage.h \
     src/alert.h \
     src/addrman.h \
     src/base58.h \
@@ -315,6 +316,7 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/qt/aboutdialog.cpp \
 	src/qt/editaddressdialog.cpp \
 	src/qt/bitcoinaddressvalidator.cpp \
+    src/qt/statisticspage.cpp \
 	src/alert.cpp \
 	src/version.cpp \
 	src/sync.cpp \
@@ -390,7 +392,8 @@ FORMS += \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
-    src/qt/forms/optionsdialog.ui
+    src/qt/forms/optionsdialog.ui \
+    src/qt/forms/statisticspage.ui
 
 contains(USE_QRCODE, 1) {
 HEADERS += src/qt/qrcodedialog.h
@@ -423,7 +426,8 @@ OTHER_FILES += \
     doc/*.txt \
     doc/README README.md \
     res/bitcoin-qt.rc \
-    src/makefile.*
+    src/makefile.* \
+    src/qt/res/styles/style.qss
 
 # platform specific defaults, if not overridden on command line
 isEmpty(BOOST_LIB_SUFFIX) {

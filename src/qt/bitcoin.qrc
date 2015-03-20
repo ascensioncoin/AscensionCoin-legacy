@@ -43,6 +43,7 @@
         <file alias="bitcoin_testnet">res/icons/bitcoin_testnet.png</file>
         <file alias="toolbar">res/icons/16x16.png</file>
         <file alias="toolbar_testnet">res/icons/16x16_testnet.png</file>
+        <file alias="statistics">res/icons/statistics.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
@@ -93,5 +94,8 @@
         <file alias="uk">locale/bitcoin_uk.qm</file>
         <file alias="zh_CN">locale/bitcoin_zh_CN.qm</file>
         <file alias="zh_TW">locale/bitcoin_zh_TW.qm</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file alias="styles">res/styles/style.qss</file>
     </qresource>
 </RCC>
