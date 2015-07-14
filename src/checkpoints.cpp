@@ -28,6 +28,7 @@ namespace Checkpoints
             ( 70, fCheckPoint1)
             ( 8300, fCheckPoint2 )
 			( 12000, fCheckPoint3 )
+            ( 85000, fCheckPoint4 )
 
 
     ;
@@ -352,7 +353,7 @@ namespace Checkpoints
 }
 
 // ascension: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "04a18357665ed7a802dcf252ef528d3dc786da38653b51d1ab8e9f4820b55aca807892a056781967315908ac205940ec9d6f2fd0a85941966971eac7e475a27826";
+const std::string CSyncCheckpoint::strMasterPubKey = "04592d0b2ae53f31db4b34da1907a4c1dcc11dc5d23c2f4f5814e4d2d56f81f5b4d9c0f61a82b4767ea54d87d4d4699e7bdcfaabef2704418a1c2e3b19e21cfc80";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
