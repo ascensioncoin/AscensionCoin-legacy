@@ -27,8 +27,9 @@ namespace Checkpoints
             ( 0, hashGenesisBlock )
             ( 70, fCheckPoint1)
             ( 8300, fCheckPoint2 )
-			( 12000, fCheckPoint3 )
-            ( 85000, fCheckPoint4 )
+            ( 12000, fCheckPoint3 )
+            ( 20000, fCheckPoint4 )//last block of v1/v2 blockchain
+            ( 20001, fCheckPoint5 )//first block of v3 blockchain
 
 
     ;
