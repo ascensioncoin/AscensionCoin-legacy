@@ -1,5 +1,7 @@
 Ascension (ASN)
 
+All info is here: https://bitcointalk.org/index.php?topic=5064849
+
 QuBit PoW algorithm
 
 120 second block time
