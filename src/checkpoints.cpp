@@ -30,7 +30,7 @@ namespace Checkpoints
             ( 12000, fCheckPoint3 )
             ( 20000, fCheckPoint4 )//last block of v1/v2 blockchain
             ( 20001, fCheckPoint5 )//first block of v3 blockchain
-
+            ( 30000, fCheckPoint6 )//block 30,000
 
     ;
 

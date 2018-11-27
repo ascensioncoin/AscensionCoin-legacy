@@ -2925,7 +2925,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         if (!vRecv.empty())
         {
             vRecv >> pfrom->strSubVer;
-            if (pfrom->strSubVer == "/ascension:2.0.0/")
+            if ((pfrom->strSubVer == "/ascension:2.0.0/") || (pfrom->strSubVer == "/ascension:2.0.1/"))
             {
                 printf("partner %s using obsolete version %s; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->strSubVer.c_str());
                 pfrom->fDisconnect = true;
