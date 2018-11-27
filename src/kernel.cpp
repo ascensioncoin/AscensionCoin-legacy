@@ -24,6 +24,7 @@ static std::map<int, unsigned int> mapStakeModifierCheckpoints =
         ( 12000, 0x835461efu )
         ( 20000, 0xaba418c1u )//last block of v1/v2 blockchains
         ( 20001, 0x5b4a5490u )//first block of v3 blockchain
+        ( 30000, 0x6c7c2a06u )//block 30,000
 
     ;
 
